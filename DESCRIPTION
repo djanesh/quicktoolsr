@@ -1,0 +1,18 @@
+Package: quicktoolsr
+Type: Package
+Title: Quick tools
+Version: 1.0
+Date: 2013-07-10
+Author: Janesh Devkota
+Maintainer: Janesh Devkota <janesh.devkota@gmail.com>
+Description: 'quicktoolsr' package is developed to ease the data preprocessing
+    and postprocessing from the Environmental Fluid Dynamics Code (EFDC) model.
+    It is sometimes difficult to change the date to julian date and create the
+    necessary format required for the model. This package addresses those
+    issues and eases through the processes of creating input files. 'efdcr'
+    also allows users to import the output of the EFDC model for creating high
+    quality graphs. Please send me an email if you like any new feature to be
+    added to this package.
+License: GPL-2 | GPL-3
+Collate:
+    'jday.r'
