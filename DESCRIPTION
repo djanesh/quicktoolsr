@@ -16,3 +16,5 @@ Description: 'quicktoolsr' package is developed to ease the data preprocessing
 License: GPL-2 | GPL-3
 Collate:
     'jday.r'
+    'quicktoolsr-package.r'
+    'condtosal.R'
