@@ -1,4 +1,10 @@
 # Function to Convert conductivity to salinity  
+#' @description This is function to convert conductivity to salinity 
+#' It utilizes the UNESCO formulation.
+#' UNESCO (1981): Background papers and supporting data on the Practical Salinity Scale, 1978. UNESCO technical papers 
+#' in marine science 37:1-144. 
+#' UNESCO (1983): Algorithms for computation of fundamental properties of seawater. 
+#' UNESCO technical papers in marine science 44:1-55.
 #' @name condtosal
 #' @title Convert the conductivity to salinity
 #' @examples 

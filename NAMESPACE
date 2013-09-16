@@ -1,2 +1,4 @@
 export(condtosal)
+export(hscale_segment)
+export(hscale_text)
 export(jday)

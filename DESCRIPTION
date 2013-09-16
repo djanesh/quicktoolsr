@@ -18,3 +18,5 @@ Collate:
     'jday.r'
     'quicktoolsr-package.r'
     'condtosal.R'
+    'scale_bar.R'
+    'scale_text.r'
