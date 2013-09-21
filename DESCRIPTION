@@ -20,3 +20,4 @@ Collate:
     'condtosal.R'
     'scale_bar.R'
     'scale_text.r'
+    'readts_EE.R'
