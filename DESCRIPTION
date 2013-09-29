@@ -21,3 +21,4 @@ Collate:
     'scale_bar.R'
     'scale_text.r'
     'readts_EE.R'
+    'my.minor.tick.R'
