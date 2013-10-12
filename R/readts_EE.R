@@ -12,7 +12,7 @@ readts_EE <- function(textfile){
   pat1 <- grep("[0-9]+\t",dat)
   new <- read.table(text=dat[pat],sep="\t")
   df <- read.table(text=dat[pat1],sep="\t")
-  temp <- as.data.frame(sapply(1:length(new),function(i){rep(x=new[i,2],new[i,1])}))
+  temp <- as.data.frame(sapply(1:nrow(new),function(i){rep(x=new[i,2],new[i,1])}))
   df$variable <- c(as.character(temp$V1),as.character(temp$V2))
   names(df) <- c("time","value","id")
   return(df)
