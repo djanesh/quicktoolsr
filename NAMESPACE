@@ -1,6 +1,8 @@
 export(condtosal)
 export(hscale_segment)
 export(hscale_text)
+export(insert_minor)
 export(jday)
 export(my.minor.tick)
+export(onedimdye)
 export(readts_EE)

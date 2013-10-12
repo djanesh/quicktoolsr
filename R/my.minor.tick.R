@@ -22,11 +22,11 @@ my.minor.tick <-
         par("xaxp")
       else par("yaxp")
       distance.between.minor <- (tick.pos[2] - tick.pos[1])/tick.pos[3]/n
-      possible.minors <- tick.pos[1] - (0:100) * distance.between.minor
+      possible.minors <- tick.pos[1] - (0:500) * distance.between.minor
       low.minor <- min(possible.minors[possible.minors >= range[1]])
       if (is.na(low.minor)) 
         low.minor <- tick.pos[1]
-      possible.minors <- tick.pos[2] + (0:100) * distance.between.minor
+      possible.minors <- tick.pos[2] + (0:500) * distance.between.minor
       hi.minor <- max(possible.minors[possible.minors <= range[2]])
       if (is.na(hi.minor)) 
         hi.minor <- tick.pos[2]

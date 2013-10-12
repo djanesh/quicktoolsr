@@ -22,3 +22,5 @@ Collate:
     'scale_text.r'
     'readts_EE.R'
     'my.minor.tick.R'
+    'insert_minor.R'
+    'onedimdye.R'
