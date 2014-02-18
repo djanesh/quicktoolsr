@@ -24,3 +24,4 @@ Collate:
     'my.minor.tick.R'
     'insert_minor.R'
     'onedimdye.R'
+    'lanczos_filter.R'
