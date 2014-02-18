@@ -1,3 +1,4 @@
+export(align_plots)
 export(condtosal)
 export(hscale_segment)
 export(hscale_text)

@@ -14,6 +14,15 @@ Description: 'quicktoolsr' package is developed to ease the data preprocessing
     quality graphs. Please send me an email if you like any new feature to be
     added to this package.
 License: GPL-2 | GPL-3
+Depends:
+    ggplot2,
+    stats,
+    grid,
+    ggplot2
+Imports:
+    plyr,
+    ggplot2,
+    grid
 Collate:
     'jday.r'
     'quicktoolsr-package.r'
@@ -25,3 +34,4 @@ Collate:
     'insert_minor.R'
     'onedimdye.R'
     'lanczos_filter.R'
+    'align_plots.R'
