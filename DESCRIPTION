@@ -35,3 +35,4 @@ Collate:
     'onedimdye.R'
     'lanczos_filter.R'
     'align_plots.R'
+    'isothermal_flux.R'
